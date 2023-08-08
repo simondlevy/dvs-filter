@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 '''
-Python distutils setup file for eDVS module.
+Python distutils setup file for dvs_filters module.
 
-Copyright (C) 2020 Simon D. Levy
+Copyright (C) 2023 Simon D. Levy
 
 MIT License
 '''
@@ -11,11 +11,11 @@ MIT License
 #from distutils.core import setup
 from setuptools import setup
 
-setup (name = 'edvs',
+setup (name = 'dvs-filters',
     version = '0.1',
     install_requires = ['numpy'],
-    description = 'Python class for iniVation eDVS',
-    packages = ['edvs'],
+    description = 'Python class for DVS filtering',
+    packages = ['dvsfilter'],
     author='Simon D. Levy',
     author_email='simon.d.levy@gmail.com',
     url='https://github.com/simondlevy/eDVS',
