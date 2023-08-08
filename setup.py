@@ -1,15 +1,6 @@
 #!/usr/bin/env python3
 
-'''
-Python distutils setup file for dvs_filters module.
-
-Copyright (C) 2023 Simon D. Levy
-
-MIT License
-'''
-
-#from distutils.core import setup
-from setuptools import setup
+from distutils.core import setup
 
 setup (name = 'dvs-filters',
        version = '0.1',
